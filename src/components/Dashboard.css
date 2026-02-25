@@ -1,0 +1,63 @@
+.dashboard-loading {
+    padding-top: var(--spacing-2xl);
+    text-align: center;
+}
+
+.dashboard-error-container,
+.dashboard-empty-container {
+    padding-top: var(--spacing-2xl);
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard-message-box {
+    background: var(--bg-secondary);
+    padding: var(--spacing-2xl);
+    border-radius: var(--radius-xl);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.dashboard-btn-primary {
+    padding: var(--spacing-md) var(--spacing-xl);
+    background: var(--success);
+    border-radius: var(--radius-md);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.dashboard-btn-primary:hover {
+    opacity: 0.9;
+}
+
+.biometric-setup-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.biometric-btn {
+    background: transparent;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    color: var(--success);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: all 0.2s;
+}
+
+.biometric-btn:hover {
+    background: rgba(16, 185, 129, 0.05);
+}
+
+.biometric-btn:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}

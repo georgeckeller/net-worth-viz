@@ -1,0 +1,5 @@
+# Replace 'your-project-id-here' with your actual Google Cloud Project ID
+project_id = "your-project-id-here"
+
+# Optional: Change the region if needed (default is us-central1)
+# region = "us-central1"
